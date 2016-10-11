@@ -2,7 +2,12 @@ body, input, button {
   font-family: sans-serif;
   font-size: 20px;
   text-align: center;
-  color: black;
+  color: #143952;
+}
+#cover {
+  background-image width: 1920px;
+  background-image height: auto;
+  background-repeat: no-repeat;
 }
 #inputs {
   margin-bottom: 30px;
@@ -34,42 +39,46 @@ button:active {
 }
 #result {
   width: 10px;
-  color: black;
+  color: #F6062B;
   font-weight: bold;
-  padding: 20px;
+  padding-top: 10px;
+  padding-right: 27px;
   font-size: 25px;
 
 }
 #summer {
   font-family: sans-serif;
-  font-size: 20px;
-  text-align: center;
+  font-size: 30px;
   color: #FFC300  ;
   font-weight: bold;
-  padding: 5px;
+  padding-top: 10px;
+  font-style: italic;
+  display: block;
 }
 #winter {
   font-family: sans-serif;
-  font-size: 20px;
-  text-align: center;
+  font-size: 30px;
   color: white;
   font-weight: bold;
-  padding: 5px;
-
+  padding-top: 10px;
+  font-style: italic;
+  display: block;
 }
 #fall {
   font-family: sans-serif;
-  font-size: 20px;
-  text-align: center;
+  font-size: 30px;
   color: yellow;
   font-weight: bold;
-  padding: 5px;
+  padding-top: 10px;
+  font-style: italic;
+  display: block;
 }
 #spring {
   font-family: sans-serif;
-  font-size: 20px;
-  text-align: center;
-  color: #2ECC71;
+  font-size: 30px;
+  color: #0CF16B;
   font-weight: bold;
-  padding: 5px;
+  padding-top: 10px;
+  font-style: italic;
+  display: block;
 }

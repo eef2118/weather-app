@@ -11,7 +11,7 @@ parseInt(document.getElementById("result").innerHTML = temperature);
 
 
  if ( temperature > 85) {    
-  document.body.style.backgroundImage = "url('./images/summer_landscape.jpg')";
+  document.getElementById("cover").style.backgroundImage = "url('images/summer_landscape.jpg')";
    document.getElementById("summer").innerHTML = "Summer";
    document.getElementById("winter").innerHTML = "";
    document.getElementById("fall").innerHTML = "";
@@ -19,7 +19,7 @@ parseInt(document.getElementById("result").innerHTML = temperature);
 }
 
   else if (temperature < 49 ) {
-  document.body.style.backgroundImage = "url('./images/winter_landscape.jpg')";
+  document.getElementById("cover").style.backgroundImage = "url('images/winter_landscape.jpg')";
     document.getElementById("summer").innerHTML = "";
     document.getElementById("winter").innerHTML = "Winter";
     document.getElementById("fall").innerHTML = "";
@@ -27,14 +27,14 @@ parseInt(document.getElementById("result").innerHTML = temperature);
 }
 
    else if (temperature > 50 && temperature < 69) {
- document.body.style.backgroundImage = "url('./images/autumn_landscape.jpg')";
+ document.getElementById("cover").style.backgroundImage = "url('images/autumn_landscape.jpg')";
    document.getElementById("summer").innerHTML = "";
    document.getElementById("winter").innerHTML = "";
    document.getElementById("fall").innerHTML = "Fall";
    document.getElementById("spring").innerHTML = "";
 }
   else if (temperature > 60 && temperature < 80) {
- document.body.style.backgroundImage = "url('./images/spring_landscape.jpg')";
+ document.getElementById("cover").style.backgroundImage = "url('images/spring_landscape.jpg')";
    document.getElementById("summer").innerHTML = "";
    document.getElementById("winter").innerHTML = "";
    document.getElementById("fall").innerHTML = "";
